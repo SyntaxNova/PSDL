@@ -1,0 +1,14 @@
+#include<xc.h>
+void main(void){
+    unsigned int i , sum ;
+    sum = 0 ;
+    TRISA = 0 ;
+    LATA = 0 ;
+    int arr[5] = {1,2,3,4,5};
+    for(i = 0 ; i<5 ; i++){
+        sum = sum + arr[i];
+    }
+
+    PORTA = sum ;
+    return ;
+}

@@ -1,0 +1,11 @@
+#include<iostream>
+void main(void){
+    unsigned int i , j , x ;
+    TRISA = 0 ;
+    LATA =0 ;
+    i = 0x04 ;
+    j = 0x05 ;
+    x= i+ j ;
+    PORTA = x;
+    return ;
+}
